@@ -2,6 +2,14 @@
   "name": "functions",
   "version": "1.0.0",
   "main": "dist/index.js",
+  "engines": {
+    "pnpm": "8.15.5"
+  },
+  "files": [
+    "dist",
+    "package.json",
+    "firebase.json"
+  ],
   "scripts": {
     "build": "tsc",
     "firebase": "firebase",
@@ -15,7 +23,7 @@
   },
   "devDependencies": {
     "typescript": "~5.4.3",
-    "firebase-tools": "^13.6.0",
-    "isolate-package": "~1.10.1"
+    "firebase-tools-with-isolate": "^13.6.4",
+    "isolate-package": "^1.13.2"
   }
 }
