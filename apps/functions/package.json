@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "dist/index.js",
   "engines": {
-    "pnpm": "8.15.5"
+    "pnpm": "8.15.6"
   },
   "files": [
     "dist",
