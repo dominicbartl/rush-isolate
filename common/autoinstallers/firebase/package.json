@@ -1,0 +1,11 @@
+{
+	"name": "firebase",
+	"version": "1.0.0",
+	"private": true,
+	"scripts": {
+		"emulators": "firebase emulators:start"
+	},
+	"dependencies": {
+		"firebase-tools-with-isolate": "^13.6.4"
+	}
+}
